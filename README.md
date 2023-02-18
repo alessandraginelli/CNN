@@ -1,13 +1,7 @@
 # CNN
 MNIST images recognition with CNN
 
-10 epochs.
-
-Validation set accuracy 99%.
-
-Test set accuracy 99%.
-
-CNN layers:
+## CNN layers:
 
 | ======================================= | ================ | ================ |
 |-----------------------------------------|------------------|------------------|
@@ -42,3 +36,12 @@ CNN layers:
 | Non-trainable params: 0                 |                  |                  |
 | Total mult-adds (M): 59.61              |                  |                  |
 | ======================================= | ================ | ================ |
+
+
+## Steps
+1. CrossEntropy Loss Criterion
+2. Adam Optimizer with learning rate = 0.001
+3. Training the model: 10 epochs with loss value 8.9e-08 at the last epoch
+4. Evaluating results on **validation** set: **accuracy of 99%**
+5. Evaluating results on **testing** set: **accuracy of 99%**
+6. Saving the model for future transfer learning
